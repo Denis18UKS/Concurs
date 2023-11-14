@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='booking.css'>
+    <title>БРОНИРОВАНИЕ</title>
+</head>
+
+<body>
+    <h2><b>БРОНИРОВАНИЕ</b></h2>
+    <form>
+        <div>
+            <label for="region">Регион:</label>
+            <input type="text" id="region" name="region" required>
+        </div>
+        <div>
+            <label for="location">Адрес локации:</label>
+            <input type="text" id="location" name="location" required>
+        </div>
+        <div>
+            <label for="date">Дата мероприятия:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div>
+            <label for="guests">Количество человек:</label>
+            <input type="number" id="guests" name="guests" min="10" required>
+        </div>
+        <div>
+            <label for="cost">Стоимость:</label>
+            <input type="text" id="cost" name="cost" required readonly placeholder=5000₽>
+        </div>
+        <h2>Выбор дополнительных услуг</h2>
+        <div>
+            
+            <label for="animators">Услуги аниматоров</label>
+            <input type="checkbox" id="animators" name="animators">
+            <p>+1550₽</p>            
+        </div>
+        <div>
+            
+            <label for="host">Услуги ведущего</label>
+            <input type="checkbox" id="host" name="host">
+            <p>+1000₽</p>
+        </div>
+        <div>
+            
+            <label for="taxi">Услуги детского такси</label>
+            <input type="checkbox" id="taxi" name="taxi">
+            <p>+300₽</p>
+        </div>
+        <br>
+        <div>
+            <label for="comment">Дополнительный комментарий:</label>
+            <textarea id="comment" name="comment"></textarea>
+        </div>
+        <div>
+            <label for="email">Email заказчика:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="totalCost">Итоговая стоимость:</label>
+            <input type="text" id="totalCost" name="totalCost" required>
+        </div>
+        <input type="submit" value="Оформить бронирование">
+    </form>
+
+    <button onclick="window.location.href='index.html'">На Главную</button>
+
+</body>
+
+</html>
