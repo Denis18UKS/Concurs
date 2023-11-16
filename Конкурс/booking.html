@@ -62,13 +62,18 @@
         </div>
         <div>
             <label for="totalCost">Итоговая стоимость:</label>
-            <input type="text" id="totalCost" name="totalCost" required>
+            <input type="text" id="totalCost" name="totalCost" placeholder="5000₽" readonly >
         </div>
-        <input type="submit" value="Оформить бронирование">
+        <input type="submit" value="Оформить бронирование" onclick="Registration()">
     </form>
 
     <button onclick="window.location.href='index.html'">На Главную</button>
 
 </body>
-
 </html>
+
+<script>
+    function Registration(){
+        alert("Вы должны быть зарегистрированы!")
+}
+</script>

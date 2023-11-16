@@ -6,6 +6,7 @@
         margin: 0% auto;
         height: 5200px;
         width: 100%;
+        font-family: cursive;
     }
     
     nav{
@@ -14,10 +15,10 @@
         justify-content: space-between;
         align-items: center;
         padding: 0% 0% 5%;
-        
         width: 105%;
         box-shadow: inset -10px -10px 10px 10px white, 0px 1px 10px 10px white;
         flex-direction: column;
+        font-family: cursive;
     }
     
     
@@ -225,6 +226,7 @@
         border: 3px solid darkred;
         transition: all 0.6s ease-in-out;
         cursor: pointer;
+        font-family: cursive;
     }
     
     #BRON:hover{
@@ -298,6 +300,7 @@
 
     #form-location form input{
         font-size: x-large;
+        font-family: cursive;
     }
     
     .loc-title{
@@ -318,6 +321,7 @@
         transition: all 0.6s ease-in-out;
         cursor: pointer;
         margin-top: 3%;
+        font-family: cursive;
     }
     
     .search-button-location:hover{
@@ -355,6 +359,7 @@
         margin: 0% auto;
         height: 5200px;
         width: 100%;
+        font-family: cursive;
     }
     
     nav{
@@ -367,12 +372,14 @@
         width: 105%;
         box-shadow: inset -10px -10px 10px 10px white, 0px 1px 10px 10px white;
         flex-direction: column;
+        font-family: cursive;
     }
     
     
     nav h1{
         background-color: azure;
         color: darkred;
+        font-family: cursive;
         padding: 20px;
         border-radius: 120px;
         
@@ -447,14 +454,13 @@
         border-color: white;
         transition: all 0.6s ease-in-out;
         cursor: pointer;
-    
+        font-family: cursive;
     }
     
     #button-content button:hover{
         background-color: white;
         color: darkred;
         font-weight: bolder;
-        font-size: medium;
         transition: all 0.6s ease-in-out;
     }
     
@@ -466,12 +472,14 @@
         border-radius: 5px;
         padding: 5px 10px;
         margin-left: 10px;
+        font-size: larger;
         transition: all 0.6s ease-in-out;
         cursor: pointer;
+        font-family: cursive;
     }
     
     .search-button:hover{
-        font-size: larger;
+        font-size: xx-large;
         transition: all 0.6s ease-in-out;
     }
     
@@ -530,7 +538,7 @@
     }
     
     #text-img-content{
-        font-size: larger;
+        font-size: x-large;
     }
     
     #img-bronirovanie-content{
@@ -572,6 +580,7 @@
         border: 3px solid darkred;
         transition: all 0.6s ease-in-out;
         cursor: pointer;
+        font-family: cursive;
     }
     
     #BRON:hover{
@@ -645,6 +654,7 @@
 
     #form-location form input{
         font-size: x-large;
+        font-family: cursive;
     }
     
     .loc-title{
@@ -665,6 +675,7 @@
         transition: all 0.6s ease-in-out;
         cursor: pointer;
         margin-top: 3%;
+        font-family: cursive;
     }
     
     .search-button-location:hover{
