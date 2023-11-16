@@ -4,8 +4,9 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='adaptive.css'>
     <script src='main.js'></script>
 </head>
 <body>
@@ -25,10 +26,7 @@
             </li>
             <li><a href="#Pitanie" id="a">Питание</a></li>
             <li><a href="otzivi.html" id="a">Отзывы</a></li>
-            <form action="/search" class="search-form" method="get">
-                <input type="text" class="search-input" name="q" placeholder="Поиск...">
-                <button class="search-button" type="submit">Найти</button>
-            </form>
+            <button class="search-button" onclick="window.location.href='#form-location'">Поиск</button>
     
             <div id="button-content">
                 <button>Войти</button>
@@ -54,6 +52,7 @@
                     <div id="price-and-title">
                         <h4>Частный Дом</h4>
                         <p>Цена: 8000₽</p>
+                        <p>от 5-10 людей</p>
                     </div>
                     <div id="text-img-content">
                         <p>Забронируйте частный дом для празднования Нового Года в кругу семьи!</p>
@@ -66,6 +65,7 @@
                     <div id="price-and-title">
                         <h4>Новогодний Коттедж</h4>
                         <p>Цена: 10000₽</p>
+                        <p>от 25-30 людей</p>
                     </div>
                     <div id="text-img-content">
                         <p>Забронируйте коттедж для празднования Нового Года в кругу семьи!</p>
@@ -80,7 +80,7 @@
                         <p>Цена: 7500₽</p>
                     </div>
                     <div id="text-img-content">
-                        <p>Забронируйте коттедж для празднования Нового Года в кругу семьи!</p>
+                        <p>Закажите Новый Год к себе домой!</p>
                     </div>
                     <button id="BRON" onclick="window.location.href='booking.html'">Забронировать</button>
                 </div>
@@ -199,6 +199,32 @@
                     <button id="BRON">Добавить</button>
                 </div>
         </section>
+
+
+        <section id="form-location">
+            <h1 class="loc-title">Поиск Локаций</h1>
+
+
+            <form action="#">
+                <input type="text" name="location" list="name_location" placeholder="Выберите локацию">
+                    <datalist id="name_location">
+                        <option value="Частный Дом">
+                        <option value="Новогодний Коттедж">
+                        <option value="Новый Год на дом">
+                        <option value="Ледяной Замок">
+                        <option value="Ледяной Театр">
+                        <option value="Волшебный поезд">
+                        <option value="Новогоднее Представление">
+                    </datalist>
+
+                <input type="number" min="1" placeholder="Выберите кол-во людей">
+                <input type="date">
+                <input type="time">
+            </form>
+            <button class="search-button-location" onclick="window.location.href='seat.html'">Поиск</button>
+        </section>
+
+
     </main>
 
     <footer>
